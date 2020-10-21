@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document (nombre de la ventana)</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2? family = Roboto: wght @ 100; 900 & display = swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth; /*Bajar de forma suave al clicar en menú*/
+        }
+        body {
+            font-family: "Courier New", Courier monospace;
+        }
+        header{
+            background: white;
+            height: 300px;
+        }
+        nav{
+            position: fixed; /*Fixed:cuadro desplazado; Absolute: cuadro que dejas atrás*/
+            z-index: -5; /*Imagen de fondo*/
+            right: 100px;
+            top: 100px;
+            bottom: 100px;
+            left: 100px;
+            background: grey;
+        }
+
+        h1 {
+            font-family: 'Bell Centennial Std';
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: : 900;
+        }
+        section{
+            margin: 150px 0;
+        }
+        footer{
+            margin: 100px 0 50px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sistemas de Representación Avanzada</h1>
+        <h2>Elena Hernández García</h2>
+    </header>
+    <nav>
+        <a href="#projects">Proyectos</a> <!--Los id funcionan con hashtags-->
+        <a href="#recursos">Recursos</a>
+        <a href="#contact">Contactos</a>
+    </nav>
+    <main>
+        <section id="projects">
+            <h3>Proyectos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic blanditiis modi temporibus exercitationem, reprehenderit id, adipisci, voluptas ipsam a, itaque fugit soluta eaque corrupti.</p>
+            <div>
+                <img src="img/vector.svg" alt="">
+                <img src="img/mapa%20de%20bits.jpg">
+                <img src="img/fondo%20transparente.png">
+                <img src="img/animateimage.gif">
+            </div>
+
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tenetur, sequi id laboriosam est doloremque fuga, atque natus cumque sed nihil laborum, ex omnis! Rem voluptatem doloremque saepe quam minus.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum veniam expedita voluptatum dolor a incidunt quam porro nisi consectetur. Ad illum autem ab error, id dolorum commodi libero a molestias.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora illo, inventore atque. Cumque doloremque autem aliquid, doloribus consequatur, officiis at sed repellat, consectetur eaque unde fuga nisi! Adipisci, consectetur, vitae!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloremque, adipisci quam ut omnis corrupti reprehenderit minima animi, ex earum est dolorum quae odit mollitia accusantium quos, porro quod asperiores!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vel illum ipsum, dolores ea iusto laudantium est ipsam, repellendus odio eligendi accusamus porro hic odit provident nam natus quis repudiandae.</li>
+            </ul>
+        </section>
+        <section id="recursos">
+            <h3>Recursos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic blanditiis modi temporibus exercitationem, reprehenderit id, adipisci, voluptas ipsam a, itaque fugit soluta eaque corrupti.</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tenetur, sequi id laboriosam est doloremque fuga, atque natus cumque sed nihil laborum, ex omnis! Rem voluptatem doloremque saepe quam minus.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum veniam expedita voluptatum dolor a incidunt quam porro nisi consectetur. Ad illum autem ab error, id dolorum commodi libero a molestias.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora illo, inventore atque. Cumque doloremque autem aliquid, doloribus consequatur, officiis at sed repellat, consectetur eaque unde fuga nisi! Adipisci, consectetur, vitae!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloremque, adipisci quam ut omnis corrupti reprehenderit minima animi, ex earum est dolorum quae odit mollitia accusantium quos, porro quod asperiores!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vel illum ipsum, dolores ea iusto laudantium est ipsam, repellendus odio eligendi accusamus porro hic odit provident nam natus quis repudiandae.</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contact">
+        <p><a href="https://www.instagram.com/viti.ram/">
+                <span style="color: white">@</span>viti.ram</a></p>
+    </footer>
+</body></html>
