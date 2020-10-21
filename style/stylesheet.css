@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bell Centennial Std';
+    src: url('../fonts/BellCentennialStd-Address.eot');
+    src: url('../fonts/BellCentennialStd-Address.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BellCentennialStd-Address.woff2') format('woff2'),
+        url('../fonts/BellCentennialStd-Address.woff') format('woff'),
+        url('../fonts/BellCentennialStd-Address.ttf') format('truetype'),
+        url('../fonts/BellCentennialStd-Address.svg#BellCentennialStd-Address') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
